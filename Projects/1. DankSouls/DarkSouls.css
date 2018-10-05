@@ -1,0 +1,39 @@
+body{
+	background:url(Background.jpg) no-repeat center center fixed;
+	background-size:cover;
+	color:#3D321D;
+}
+div{
+	border-style: solid;
+	border-color:#373131;
+	border-width:5px;
+	border-radius:5px;
+	margin-left:10px;
+	margin-top:20px;
+	overflow:hidden;
+	max-width:0px;
+	background-color:#DB9F30;
+}
+h1{
+	font-family:georgia;
+	font-size:50px;
+	margin-left:30px;
+}
+.button{
+	font-family:georgia;
+	font-weight:bolder;
+	margin:5px;
+	margin-left:10px;
+	border-radius:5px;
+	font-size:20px;
+	padding:10px;
+	width:250px;
+	color:black;
+	background-color:#FECB6E;
+	border-color:#5E471C;
+}
+.button:hover {background-color:#AD7812}
+.button:active {
+	background-color: #8D6210;
+	transform: translateY(2px);
+}

@@ -1,0 +1,45 @@
+body{
+	background:url("Projects/robotarm-js-2018/BlueBackground.png") no-repeat center center fixed
+}
+h1{
+	font-size: 50px;
+}
+.button{
+	font-family: georgia;
+	font-weight: bolder;
+	margin: 5px;
+	margin-left: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	width: 250px;
+	color: black;
+	background-color: #17E1C7;
+	border-color: #5E471C;
+}
+.button:hover {background-color: #23B1EC}
+.button:active {
+	background-color: #178AE1;
+	transform: translateY(2px);
+}
+.MainDiv{
+	font-size: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 4px;
+	border-radius: 5px;
+	max-width: 500px;
+	padding: 10px;
+	float: left;
+	margin-right: 20px;
+}
+.SecondDiv{
+	font-size: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 4px;
+	border-radius: 5px;
+	max-width: 500px;
+	padding: 10px;
+	overflow: hidden;
+}
