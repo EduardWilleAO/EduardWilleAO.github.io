@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My main website</title>
+		<style>
+			body{
+				margin: 0 auto;
+				width: 1000px;
+			}
+				.ProjectButton{
+					font-family: georgia;
+					font-weight: bolder;
+					margin: 25px;
+					margin-left: 10px;
+					border-radius: 5px;
+					font-size: 20px;
+					padding: 10px;
+					width: 200px;
+					height: 100px;
+					color: black;
+					background-color: white;
+					border-color: black;
+				}	
+				.ProjectButton:hover {background-color: lightgrey}
+				.ProjectButton:active {
+					background-color: grey;
+					transform: translateY(2px);
+				}
+			.Div1 { grid-area: header; }
+			.Div2 { grid-area: body; }
+			.Div22 { grid-area: body1; }
+			.Project1 { grid-area: project1; }
+			.Project2 { grid-area: project2; }
+			.Project3 { grid-area: project3; }
+			.Project4 { grid-area: project4; }
+			.Project5 { grid-area: project5; }
+			.Project6 { grid-area: project6; }
+			.grid-container {
+  				display: grid;
+  				grid-template-areas:
+    				'header header header header'
+    				'body body body1 body1'
+    				'project1 project1 project2 project2'
+    				'project3 project3 project4 project4'
+    				'project5 project5 project6 project6';
+  				grid-gap: 2px;
+  				background-color: black;
+  				padding: 2px;
+			}
+			.grid-container > div {
+  				background-color: white;
+  				text-align: center;
+  				padding: 20px 0;
+ 				font-size: 30px;
+			}
+			.MainHeader{
+				margin: 0px;
+			}
+			.MainParagraph{
+				text-align: left;
+				margin: 0px;
+				margin-left: 50px;
+			}
+			.images{
+				margin: 25px;
+				margin-top: 5px;
+			}
+			.codeIMG{
+				margin-top: 100px;
+				margin-bottom: 0px;
+			}
+			.DaVinciLogo{
+				margin-left: 0px;
+				margin-top: 10px;
+				margin-bottom: 0px
+			}
+		</style>
+	</head>
+	<body>
+		<div class="TotalDiv">
+			<div class="grid-container">
+				<div class="Div1">
+					<h1 class="MainHeader">My website</h1>
+				</div>
+				<div class="Div2">
+					<h1 class="MainHeader">Bio</h1>
+					<p class="MainParagraph">
+						Hey!<br> 
+						My name is Eduard Wille,<br> 
+						i study at Da Vinci College in the Netherlands.<br> 
+						I study ICT where i am trying to learn code.<br>
+						All the projects i have to do for school<br>
+						But if i make anything worth putting on here<br>
+						ill just add it to the site.<br>
+						<img src="IMG/DaVinciLogo.png" class="DaVinciLogo">
+					</p>
+				</div>
+				<div class="Div22">
+					<img src="IMG/DaVinci.jpg" class="images" width="450px" height="300px">
+					<img src="IMG/Code.jpg" class="codeIMG" width="450px" height="250px">
+				</div>
+						<div class="Project1">
+							<button class="ProjectButton">Project: Pizza Calculator</button>
+						</div>
+						<div class="Project2">
+							<button class="ProjectButton">Project: Portfolio</button>
+						</div>
+						<div class="Project3">
+							<button class="ProjectButton">Project: Text based game</button>
+						</div>
+						<div class="Project4">
+							<button class="ProjectButton">Project: Menukaart</button>
+						</div>
+						<div class="Project5">
+							<button class="ProjectButton">Project: Robot arm</button>
+						</div>
+						<div class="Project6">
+							<button class="ProjectButton">Project: Site with grid</button>
+						</div>
+
+			</div>
+		</div>
+	</body>
+</html>
